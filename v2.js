@@ -3,8 +3,8 @@ const { setTimeout } = require('timers/promises');
 
 // KONFIGURASI
 const config = {
-  TARGET_URL: 'http://localhost:3000', // GANTI dengan URL ANDA
-  MAX_REQUESTS: 20,                   // Jumlah request total
+  TARGET_URL: 'https://panel.roidev.my.id/', // GANTI dengan URL ANDA
+  MAX_REQUESTS: 9999999,                   // Jumlah request total
   DELAY_MS: 200,                      // Delay antar batch (milidetik)
   CONCURRENT_REQUESTS: 3,             // Request paralel per batch
   LOG_SUCCESS: true,                  // Tampilkan log request sukses
