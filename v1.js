@@ -4,7 +4,7 @@ const { randomInt, randomBytes } = require('crypto');
 
 // KONFIGURASI
 const config = {
-  TARGET_URL: 'https://api.suraweb.online/', // Ganti dengan URL target
+  TARGET_URL: 'https://panel.roidev.my.id/', // Ganti dengan URL target
   MAX_REQUESTS: 9999999999,
   DELAY_MIN_MS: 5,
   DELAY_MAX_MS: 10,
